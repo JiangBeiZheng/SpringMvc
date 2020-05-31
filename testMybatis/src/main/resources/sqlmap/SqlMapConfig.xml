@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC" />
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.jdbc.Driver" />
+                <property name="url"
+                          value="jdbc:mysql://localhost:3306/crm?characterEncoding=utf-8" />
+                <property name="username" value="root" />
+                <property name="password" value="root" />
+            </dataSource>
+        </environment>
+    </environments>
+    <mappers>
+        <mapper resource="sqlmap/mapper.xml" />
+        <mapper resource="mapper/CrmMapper.xml"/>
+    </mappers>
+    <!--扫描该包，并将包内搜所有的类设置别名，别名就时类名，且大小写不敏感,暂时没尝试成功怎么用，放在这好像不好使，报错-->
+<!--<typeAliases>
+    <package name="com.test.pojo"/>
+</typeAliases>-->
+</configuration>

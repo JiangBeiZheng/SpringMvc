@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="test">
+    <select id="queryBlogById" parameterType="Integer" resultType="com.test.pojo.Crm">
+ 		select * from base_dict
+ 	</select>
+	<insert id="saveCrm" parameterType="com.test.pojo.Crm">
+		INSERT INTO base_dict (DICT_ID,DICT_ENABLE,DICT_ITEM_CODE,DICT_ITEM_NAME,DICT_MEMO,DICT_SORT,DICT_TYPE_CODE,DICT_TYPE_NAME) VALUES (#{dict_id},#{dict_enable},#{dict_item_Code},#{dict_item_Name},#{dict_memo},#{dict_sort},#{dict_type_Code},#{dict_type_Name})
+	</insert>
+	<update id="update" parameterType="com.test.pojo.Crm">
+		update base_dict set dict_item_name=#{dict_item_Name} where dict_id =#{dict_id}
+
+	</update>
+	<delete id="delete" parameterType="Integer">
+		delete from base_dict where dict_id =#{id}
+	</delete>
+
+</mapper>

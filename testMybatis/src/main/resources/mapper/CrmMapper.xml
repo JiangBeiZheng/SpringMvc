@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<!-- namespace：命名空间，用于隔离sql -->
+<!-- 还有一个很重要的作用，使用动态代理开发DAO，1. namespace必须和Mapper接口类路径一致 -->
+<mapper namespace="com.test.demo2.Mapper">
+    <!-- 根据用户id查询用户 -->
+    <!-- 2. id必须和Mapper接口方法名一致 -->
+    <!-- 3. parameterType必须和接口方法参数类型一致 -->
+    <!-- 4. resultType必须和接口方法返回值类型一致 -->
+    <select id="select" parameterType="Integer"
+            resultType="com.test.pojo.Crm">
+		select * from base_dict where dict_id = #{id}
+	</select>
+    <!--动态sql-->
+    <!--if标签-->
+
+    <select id="queryCrmDict" parameterType="com.test.pojo.Crm" resultType="com.test.pojo.Crm">
+        SELECT DICT_ID,DICT_ENABLE,DICT_ITEM_NAME FROM BASE_DICT WHERE 1=1
+        <if test="dict_id!=null and dict_id != '' ">
+            AND DICT_ID = #{dict_id}
+        </if>
+        <if test=" dict_type_Code != null and dict_type_Code != ''">
+            AND DICT_TYPE_CODE =#{dict_type_Code}
+        </if>
+    </select>
+    <!--改造上面这个select语句-->
+    <select id="queryCrmDict1" parameterType="com.test.pojo.Crm" resultType="com.test.pojo.Crm">
+        SELECT DICT_ID,DICT_ENABLE,DICT_ITEM_NAME FROM BASE_DICT
+        <where>
+            <if test="dict_id!=null and dict_id != '' ">
+                AND DICT_ID = #{dict_id}
+            </if>
+            <if test=" dict_type_Code != null and dict_type_Code != ''">
+                AND DICT_TYPE_CODE =#{dict_type_Code}
+            </if>
+        </where>
+    </select>
+    <!--声名sql片段方便重复利用，利用时使用include标签-->
+    <sql id="aaa">
+        id,username,brithday,sex,address
+    </sql>
+    <!--foreatch标签-->
+    <select id="selectTestForEatch" parameterType="list" resultType="com.test.pojo.Crm">
+        SELECT * FROM BASE_DICT
+        <where>
+            <!-- foreach标签，进行遍历 -->
+            <!-- collection：遍历的集合，如果传入List集合则必须为“list”，
+    如果传入普通数组，则必须为“array” -->
+            <!-- item：遍历的项目，可以随便写，，但是和后面的#{}里面要一致 -->
+            <!-- open：在前面添加的sql片段 -->
+            <!-- close：在结尾处添加的sql片段 -->
+            <!-- separator：指定遍历的元素之间使用的分隔符 -->
+
+            <foreach collection="list" item="item" open="dict_id IN (" close=")" separator=",">
+                #{item}
+            </foreach>
+        </where>
+    </select>
+</mapper>
