@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--测试spring注入，需要set方法-->
+    <bean id="controllerBean" class="cn.test.controller.controller">
+        <property name="serviceBean" ref="serviceBean"/>
+    </bean>
+    <bean id="serviceBean" class="cn.test.service.service">
+        <property name="daoBean" ref="daoBean"/>
+    </bean>
+    <bean id="daoBean" class="cn.test.dao.dao"/>
+</beans>
