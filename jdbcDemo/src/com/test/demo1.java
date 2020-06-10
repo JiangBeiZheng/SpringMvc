@@ -34,6 +34,9 @@ public class demo1 {
         }finally {
             jdbcUtil.closeResource(conn,pst,rs);
             System.out.println("master前行分支");
+            System.out.println("本行代码为测试新的分支dev-1所写");
+
+            System.out.println("dev-1继续前行");
         }
     }
 }
