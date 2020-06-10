@@ -33,6 +33,7 @@ public class demo1 {
             e.printStackTrace();
         }finally {
             jdbcUtil.closeResource(conn,pst,rs);
+            System.out.println("master前行分支");
         }
     }
 }
