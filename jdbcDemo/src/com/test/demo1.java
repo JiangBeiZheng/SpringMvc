@@ -37,6 +37,9 @@ public class demo1 {
             System.out.println("本行代码为测试新的分支dev-1所写");
 
             System.out.println("dev-1继续前行");
+            System.out.println("本行代码为测试新的分支dev-1所写");
+
+            System.out.println("dev-1继续前行");
         }
     }
 }
