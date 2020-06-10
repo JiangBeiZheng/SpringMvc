@@ -34,6 +34,7 @@ public class demo1 {
         }finally {
             jdbcUtil.closeResource(conn,pst,rs);
             System.out.println("本行代码为测试新的分支dev-1所写");
+            System.out.println("本行代码为测试新的分支test2所写");
         }
     }
 }
