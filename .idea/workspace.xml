@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01d1b3dd-28c1-4a92-b994-961c50dca05c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/jdbcDemo/src/com/test/demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdbcDemo/src/com/test/demo1.java" afterDir="false" />
-    </list>
+    <list default="true" id="01d1b3dd-28c1-4a92-b994-961c50dca05c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,7 +11,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="dev-1" />
+        <entry key="$PROJECT_DIR$" value="dependabot/maven/Spring_MVC/spring.version-5.2.6.RELEASE" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,7 +38,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../testdev" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -68,7 +66,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591797245359</updated>
-      <workItem from="1591797247435" duration="2128000" />
+      <workItem from="1591797247435" duration="2392000" />
+      <workItem from="1591874924932" duration="957000" />
     </task>
     <task id="LOCAL-00001" summary="测试dev-1分支">
       <created>1591797490434</created>
@@ -98,7 +97,21 @@
       <option name="project" value="LOCAL" />
       <updated>1591798471914</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="master">
+      <created>1591799382458</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1591799382458</updated>
+    </task>
+    <task id="LOCAL-00006" summary="master和">
+      <created>1591799444413</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1591799444413</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,7 +122,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -122,6 +137,7 @@
     <MESSAGE value="测试master前行分支" />
     <MESSAGE value="合并到master" />
     <MESSAGE value="master" />
-    <option name="LAST_COMMIT_MESSAGE" value="master" />
+    <MESSAGE value="master和" />
+    <option name="LAST_COMMIT_MESSAGE" value="master和" />
   </component>
 </project>
