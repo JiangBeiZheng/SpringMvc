@@ -36,6 +36,7 @@ public class demo1 {
             System.out.println("new test1");
             System.out.println("new test1.1");
             System.out.println("newtest2");
+            System.out.println("newtest2.1");
         }
     }
 }

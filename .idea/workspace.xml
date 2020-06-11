@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01d1b3dd-28c1-4a92-b994-961c50dca05c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jdbcDemo/src/com/test/demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdbcDemo/src/com/test/demo1.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -156,6 +155,7 @@
     <MESSAGE value="master" />
     <MESSAGE value="master和" />
     <MESSAGE value="删除多余部分" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除多余部分" />
+    <MESSAGE value="newtest2" />
+    <option name="LAST_COMMIT_MESSAGE" value="newtest2" />
   </component>
 </project>
