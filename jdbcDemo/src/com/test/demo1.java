@@ -35,6 +35,7 @@ public class demo1 {
             jdbcUtil.closeResource(conn,pst,rs);
             System.out.println("new test1");
             System.out.println("new test1.1");
+            System.out.println("newtest2");
         }
     }
 }
