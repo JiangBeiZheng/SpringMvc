@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01d1b3dd-28c1-4a92-b994-961c50dca05c" name="Default Changelist" comment="" />
+    <list default="true" id="01d1b3dd-28c1-4a92-b994-961c50dca05c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/jdbcDemo/src/com/test/demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdbcDemo/src/com/test/demo1.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,7 +13,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="dependabot/maven/Spring_MVC/spring.version-5.2.6.RELEASE" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -111,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591799444413</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="删除多余部分">
+      <created>1591884038823</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1591884038823</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +147,7 @@
     <MESSAGE value="合并到master" />
     <MESSAGE value="master" />
     <MESSAGE value="master和" />
-    <option name="LAST_COMMIT_MESSAGE" value="master和" />
+    <MESSAGE value="删除多余部分" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除多余部分" />
   </component>
 </project>
