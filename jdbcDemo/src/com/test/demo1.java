@@ -34,6 +34,7 @@ public class demo1 {
         }finally {
             jdbcUtil.closeResource(conn,pst,rs);
             System.out.println("new test1");
+            System.out.println("new test1.1");
         }
     }
 }
