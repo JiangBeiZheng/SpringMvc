@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01d1b3dd-28c1-4a92-b994-961c50dca05c" name="Default Changelist" comment="" />
+    <list default="true" id="01d1b3dd-28c1-4a92-b994-961c50dca05c" name="Default Changelist" comment="master">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +70,7 @@
       <updated>1591797245359</updated>
       <workItem from="1591797247435" duration="2392000" />
       <workItem from="1591874924932" duration="957000" />
+      <workItem from="1592010262637" duration="611000" />
     </task>
     <task id="LOCAL-00001" summary="测试dev-1分支">
       <created>1591797490434</created>
@@ -118,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591884038823</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="master">
+      <created>1591885239192</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1591885239192</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,9 +153,9 @@
     <MESSAGE value="测试dev-1前行分支" />
     <MESSAGE value="测试master前行分支" />
     <MESSAGE value="合并到master" />
-    <MESSAGE value="master" />
     <MESSAGE value="master和" />
     <MESSAGE value="删除多余部分" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除多余部分" />
+    <MESSAGE value="master" />
+    <option name="LAST_COMMIT_MESSAGE" value="master" />
   </component>
 </project>
