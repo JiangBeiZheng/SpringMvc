@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="01d1b3dd-28c1-4a92-b994-961c50dca05c" name="Default Changelist" comment="master">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+    <list default="true" id="01d1b3dd-28c1-4a92-b994-961c50dca05c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/jdbcDemo/src/com/test/demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdbcDemo/src/com/test/demo1.java" afterDir="false" />
+>>>>>>> newtest2
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -121,12 +126,21 @@
       <option name="project" value="LOCAL" />
       <updated>1591884038823</updated>
     </task>
+<<<<<<< HEAD
     <task id="LOCAL-00008" summary="master">
       <created>1591885239192</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
       <updated>1591885239192</updated>
+=======
+    <task id="LOCAL-00008" summary="删除多余部分">
+      <created>1591884672773</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1591884672773</updated>
+>>>>>>> newtest2
     </task>
     <option name="localTasksCounter" value="9" />
     <servers />
@@ -155,7 +169,12 @@
     <MESSAGE value="合并到master" />
     <MESSAGE value="master和" />
     <MESSAGE value="删除多余部分" />
+<<<<<<< HEAD
     <MESSAGE value="master" />
     <option name="LAST_COMMIT_MESSAGE" value="master" />
+=======
+    <MESSAGE value="newtest2" />
+    <option name="LAST_COMMIT_MESSAGE" value="newtest2" />
+>>>>>>> newtest2
   </component>
 </project>
